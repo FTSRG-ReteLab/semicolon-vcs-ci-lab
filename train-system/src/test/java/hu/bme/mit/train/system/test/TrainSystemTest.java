@@ -60,7 +60,7 @@ public class TrainSystemTest {
 		controller.useEmergencyBreak();
 		Assert.assertEquals(0, controller.getReferenceSpeed());
 	}
-	
+
 	@Test
 	public void test4() {
 		Assert.assertEquals(0, tt.getCount());
