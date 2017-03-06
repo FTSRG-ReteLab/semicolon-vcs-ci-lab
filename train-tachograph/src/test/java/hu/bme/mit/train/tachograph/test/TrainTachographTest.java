@@ -18,7 +18,7 @@ public class TrainTachographTest {
     }
 
     @Test
-    public void testCount() {
+    public void test1() {
         Assert.assertEquals(0, tt.getCount());
         tt.fillData();
         Assert.assertEquals(2, tt.getCount());
