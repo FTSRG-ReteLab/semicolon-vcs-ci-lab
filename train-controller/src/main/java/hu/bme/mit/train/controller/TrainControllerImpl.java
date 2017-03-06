@@ -42,7 +42,7 @@ public class TrainControllerImpl implements TrainController {
 	}
 
     @Override
-    public void emergencyBreak() {
+    public void useEmergencyBreak() {
         if(referenceSpeed != 0) {
             referenceSpeed = 0;
             step = 0;
